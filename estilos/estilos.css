@@ -3,11 +3,11 @@
 
 @font-face {
   font-family: bebas;
-  src: url(/assets/galeria/fuentes/BebasKai.ttf);
+  src: url(../assets/galeria/fuentes/BebasKai.ttf);
   font-family: roboto;
-  src: url(/assets/galeria/fuentes/Roboto-Medium.ttf);
+  src: url(../assets/galeria/fuentes/Roboto-Medium.ttf);
   font-family: roboto2;
-  src: url(/assets/galeria/fuentes/Roboto-Medium.ttf);
+  src: url(../assets/galeria/fuentes/Roboto-Medium.ttf);
 }
 * {
     margin: 0;
@@ -15,7 +15,7 @@
     box-sizing: border-box;
   }
 body {
-  background-image: url(/assets/galeria/fondo/imagenDeFondo.webp);
+  background-image: url(../assets/galeria/fondo/imagenDeFondo.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -270,7 +270,7 @@ header {
 }
 /*Banner*/
 .banner__content {
-  content: url(/assets/galeria/imagenes/bannerPrincipal.webp);
+  background-image: url(../assets/galeria/imagenes/bannerPrincipal.webp);
   width: 100%;
 }
 .banner__tittle {
@@ -488,8 +488,8 @@ input[id="3"]:checked ~ .pagination .pagination__item[for="3"] {
   gap: 7px;
 }
 .card {
-  height: 230px;
-  width: 200px;
+  height: 300px;
+  width: 210px;
   background: linear-gradient(220.55deg, #ffd439 0%, #ff7a00 100%);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
@@ -774,7 +774,8 @@ form .group {
     grid-template-rows: repeat(4, 1fr);
   }
   .card {
-    width: 95%;
+    height: 320px;
+    width: 250px;
   }
 
   /*Iconos*/
@@ -1000,8 +1001,8 @@ form .group {
     text-align: center;
   }
   .card {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 300px;
   }
   .text2 {
     margin-top: 50px;
@@ -1020,7 +1021,8 @@ form .group {
   /*Mapa Y Formulario*/
   .map__container h5 {
     margin-left: 38%;
-    margin-bottom: -50px;
+    margin-top: 50px;
+    margin-bottom: -70px;
   }
   .form__general {
     margin-right: 50%;
@@ -1040,7 +1042,7 @@ form .group {
   }
   /*Planes*/
   .card {
-    height: 20vw;
+    height: 300px;
     width: 250px;
   }
 }
@@ -1150,12 +1152,12 @@ form .group {
 
   /*Planes*/
   .planes__card {
-    padding-left: 20%;
+    padding-left: 10%;
     margin-right: 19%;
   }
   .card {
-    width: 190px;
-    height: 10vw;
+    width: 250px;
+    height: 300px;
   }
   .text2 {
     margin-top: 50px;
